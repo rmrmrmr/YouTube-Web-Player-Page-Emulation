@@ -1,0 +1,15 @@
+Partes de la pagina
+    Nav & search bar(top, fixed)
+    Sidebar (left)
+    Video player(center, below nav&search bar)
+    Title & Like, share etc. icons bar (center, below video player)
+    Comment section (center, below title&like..bar)
+    Suggested videos bar (right)
+
+Partes de la Nav&SearchBar
+    icon on left side 
+    search bar on the middle
+    icons on right side 
+        upload video
+        notifications
+        profile picture

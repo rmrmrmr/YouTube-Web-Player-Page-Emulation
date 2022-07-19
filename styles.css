@@ -1,0 +1,105 @@
+#topBar {
+    position: fixed;
+    top: 0px;
+    height: 8%;
+    left: 0px;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+#youTubeIcon {
+    width: 70px;
+    height: 50px;
+    margin-left: 20px;
+
+}
+#textInput{
+    width: 60%;
+}
+#searchButton {
+    width: auto;
+}
+#icons {
+    display: flex;
+    flex-flow: row-reverse;
+}
+#profile {
+    margin-left: 8px;
+    margin-right: 16px;
+}
+#notifications {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+#upload {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+#sideBar {
+    grid-row: 1 / 4;
+}
+.videoWrapper {
+    grid-row: 1 /2;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+#buttonsBar {
+    position: inherit;
+    grid-column: 2 / auto;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 20% repeat(7, 1fr);
+    text-align: right;
+    align-items: center;
+}
+#videoTitle{
+    margin-top: 3px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+#usersWatching {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+#videoTitle {
+    grid-column: 1 / -1;
+}
+#commentSection {  
+    grid-column: 2/3;
+    grid-row: 3 / auto;
+}
+#suggestedVideosBar {
+    grid-row: 1 / 4;
+    grid-column: 4 / 5;
+}
+
+.thumbnail {
+    width: 100%;
+    position: relative;
+    justify-self: center;
+    margin-bottom: 10px;
+}
+.grid {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 65% 5% 17% 3%;
+
+}
+
